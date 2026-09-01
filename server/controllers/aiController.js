@@ -23,7 +23,7 @@ export const generateArticle = async (req, res) => {
         }
 
         const response = await groq.chat.completions.create({
-            model: ""openai/gpt-oss-120b",
+            model: "openai/gpt-oss-120b",
             messages: [
                 {
                     role: "system",
