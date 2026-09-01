@@ -1,0 +1,16 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+server/.env
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Build files
+dist/
+build/
+.next/
